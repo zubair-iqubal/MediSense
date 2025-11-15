@@ -45,7 +45,9 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+
+```text
 Medisense/
 ├── app/
 │   ├── main.py              # FastAPI entry point
@@ -102,7 +104,4 @@ cd frontend
 npm install
 npm run dev
 Frontend will run at: http://localhost:5173
-Method,Endpoint,Description
-POST,/predict/heart,Predict heart disease
-POST,/predict/diabetes,Predict diabetes risk
-POST,/predict/ckd,Predict CKD
+
